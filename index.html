@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <div class="wrapper">
-       <div class="container">
-           <button class="button-option"></button>
-           <button class="button-option"></button>
-           <button class="button-option"></button>
-           <button class="button-option"></button>
-           <button class="button-option"></button>
-           <button class="button-option"></button>
-           <button class="button-option"></button>
-           <button class="button-option"></button>
-           <button class="button-option"></button>
-       </div>
-       <button id="restart">Restart</button>
-   </div>
 
-   <div class="popup hide">
-       <p id="message">Sample Message</p>
-       <button id="new-game">New Game</button>
-   </div>
-   
-    <!-- Script -->
-    <script src="script.js"></script>
+<nav id="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <h1>Welcome to Our Website</h1>
+    <p>We're thrilled to have you here. Explore our offerings, learn more about our team, and don't hesitate to get in touch with any inquiries.</p>
+</section>
+
+<section id="about">
+    <h1>About Us</h1>
+    <p>Founded with a vision for excellence, our company is dedicated to providing top-notch services and innovative solutions. Our team's expertise spans various domains, ensuring we deliver the best results for our clients.</p>
+    <p>Our commitment to quality and customer satisfaction drives everything we do. Discover more about our journey and values.</p>
+</section>
+
+<section id="services">
+    <h1>Our Services</h1>
+    <p>We offer a wide array of services to cater to your needs:</p>
+    <ul>
+        <li><strong>Consulting:</strong> Expert advice and strategies to propel your business forward.</li>
+        <li><strong>Development:</strong> Customized software and web development tailored to your unique requirements.</li>
+        <li><strong>Design:</strong> Innovative design solutions to enhance your brand and products.</li>
+        <li><strong>Support:</strong> Dependable support services to ensure smooth operations.</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h1>Contact Us</h1>
+    <p>We're eager to connect with you! Whether you have a question, need help, or want to discuss a project, reach out to us.</p>
+    <p><strong>Email:</strong> info@ourcompany.com</p>
+    <p><strong>Phone:</strong> (123) 456-7890</p>
+    <p>Visit our office:</p>
+    <p>123 Main Street,<br>
+       City, State, ZIP Code</p>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
